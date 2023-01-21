@@ -1,0 +1,30 @@
+{
+    "v": 1,
+    "data": [
+        {
+            "on": true,
+            "rules": [
+                {
+                    "on": true,
+                    "replace": "https://fonts.bunny.net/**",
+                    "match": "*://fonts.google.com/**",
+                    "type": "normalOverride"
+                },
+                {
+                    "on": true,
+                    "replace": "https://fonts.bunny.net/**",
+                    "match": "*://fonts.googleapis.com/**",
+                    "type": "normalOverride"
+                },
+                {
+                    "on": true,
+                    "replace": "https://fonts.bunny.net/**",
+                    "match": "*://fonts.gstatic.com/**",
+                    "type": "normalOverride"
+                }
+            ],
+            "matchUrl": "*",
+            "id": "d1"
+        }
+    ]
+}
